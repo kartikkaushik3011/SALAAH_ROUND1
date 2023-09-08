@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url("https://images.unsplash.com/photo-1478760329108-5c3ed9d495a0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+header {
+  background-color: rgba(22, 21, 21, 0.629);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+header nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header nav a {
+  font-size: 2rem;
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  padding: 0 3rem;
+  height: 85vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+main img {
+  width: 420px;
+  height: 420px;
+  border-radius: 50%;
+  /* mix-blend-mode: lighten; */
+}
+main div {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+}
+main div h1 {
+  margin-top: 1rem;
+  color: rgb(255, 255, 255);
+  font-size: 3.5rem;
+  margin-bottom: 4rem;
+}
+main div ul {
+  font-size: 1.5rem;
+  color: white;
+}
+main div ul li {
+  margin-top: 0.6rem;
+}
